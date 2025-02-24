@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vegetable</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&family=Quicksand:wght@300..700&family=Sora:wght@100..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/style.css"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <script>
+        tailwind.config = {
+          plugins: [daisyui],
+        }
+      </script>
+</head>
+<body class="font-sora">
+    <nav class="mx-20 p-2 flex space-x-60">
+        <div>
+            <img src="./images/logo-header.png" alt="Logo">
+        </div>
+        <div class="hidden lg:flex justify-center space-x-8 pt-10">
+            <a href="#">Product</a>
+            <a href="#">Services</a>
+            <a href="#">Contact Us</a>
+        </div>
+        <div class="hidden lg:flex space-x-8 w-4/12 justify-end">
+            <div class="flex space-x-4 pt-6">
+                <i class="fa fa-magnifying-glass"></i>
+                <i class="fa-solid fa-cart-shopping"></i>
+            </div>
+            <button class="rounded border-2 border-green-600 px-4 py-0">Login</button>
+            <button class="rounded bg-green-600 px-4 text-white">Register</button>
+        </div>
+        <i class="fa-solid fa-bars text-green-600 text-3xl flex justify-right lg:hidden"></i>
+    </nav>
+    <hr class="text-green-900 lg:hidden">
+
+    <section class="p-4 bg-gradient-to-b from-white to-[#efebe3] h-auto w-full">
+        <div class="mx-20 p-8">
+            <h1 class="font-bold justify-center text-3xl text-center">Freshness <span class="text-green-600">You Can</span><br>
+            <span class="text-green-600">Count</span> On, Prices You’ll Love!</h1>
+            <p class="text-center">Shop your daily essentials at unbeatable prices. From fresh produce to pantry staples, we’ve got you covered every day!</p>  
+            <div class="flex justify-center items-center h-screen">
+                <img src="./images/hero-vegetables.png" class="w-90"> 
+            </div>
+        </div> 
+    </section>
+
+    <section class="mx-20 p-20">
+        <h1 class="font-bold text-2xl p-2"><span class="text-green-600">Services</span></h1>
+        <div class="grid grid-cols-1 lg:grid-cols-3 gap-8 items-center">
+            <div class="rounded bg-[#EFEBE3] p-8 items-center justify-center ">
+                <div class="flex justify-center items-center bg-white rounded-full w-40 h-40 m-auto p-4">
+                    <img src="./images/service.png" class="rounded-full object-cover w-full h-full">
+                </div>
+                <h2 class="font-bold text-center my-3"> 25/7 Services</h2>
+                <p class="text-center">We provide 24 hour a day and seven days a week service which will provide you the best outcome.</p>
+            </div>
+            <div class="rounded bg-[#EFEBE3] p-8 items-center justify-center ">
+                <div class="flex justify-center items-center bg-white rounded-full w-40 h-40 m-auto p-4">
+                    <img src="./images/delivery.png" class="rounded-full object-cover w-full h-full">
+                </div>
+                <h2 class="font-bold text-center my-3"> Fast Delivery</h2>
+                <p class="text-center">To ensure fast delivery, our dedicated team works hardly.If you face any difficulty, please contact us.</p>
+            </div>
+            <div class="rounded bg-[#EFEBE3] p-8 items-center justify-center ">
+                <div class="flex justify-center items-center bg-white rounded-full w-40 h-40 m-auto p-4">
+                    <img src="./images/healthy.png" class="rounded-full object-cover w-full h-full">
+                </div>
+                <h2 class="font-bold text-center my-3"> Healthy Products</h2>
+                <p class="text-center">We provide healthy products to our customer to ensure their good food habit.Best wishes to all.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="px-20 p-10 bg-[#EFEBE3]">
+        <h1 class="font-bold text-2xl p-4"><span class="text-green-600">Popular Products</span></h1>
+        <div class="gap-4 lg:flex">
+            <div class="bg-green-500 p-4 rounded lg:w-4/12 h-[45%]">
+                <h1 class="text-white font-bold 3xl"> 30% off</h1>
+                <p class="py-4">Special offer going on!If you are our regular customer then you are getting 30% off today only.</p>
+                <button class="rounded bg-white p-3">Buy Now</button>
+                <img src="./images/vegetable-offer.png" class="ml-20">
+            </div>
+            <div class="bg-[#EFEBE3] rounded lg:w-8/12">
+                <div class="m-auto grid grid-cols-2 lg:grid-cols-3 gap-4 py-4"> 
+                    <div class="flex rounded bg-white">
+                        <div class="rounded bg-[#EFEBE3] w-[33.3%] h-[50%] m-4">
+                            <img src="./images/onion.png">
+                        </div>
+                        <div class="mt-4">
+                            <i class="fas fa-star text-yellow-500"></i> 4.5
+                            <h2 class="2xl"> 1 KG POTATO</h2>
+                            <h4> $39.99</h4>
+                        </div>
+                    </div>
+                    <div class="flex rounded bg-white">
+                        <div class="rounded bg-[#EFEBE3] w-[33.3%] h-[50%] m-4">
+                            <img src="./images/onion.png">
+                        </div>
+                        <div class="mt-4">
+                            <i class="fas fa-star text-yellow-500"></i> 4.5
+                            <h2 class="2xl"> 1 KG TOMATO</h2>
+                            <h4> $39.99</h4>
+                        </div>
+                    </div>
+                    <div class="flex rounded bg-white">
+                        <div class="rounded bg-[#EFEBE3] w-[33.3%] h-[50%] m-4">
+                            <img src="./images/onion.png">
+                        </div>
+                        <div class="mt-4">
+                            <i class="fas fa-star text-yellow-500"></i> 4.5
+                            <h2 class="2xl"> 1 KG ONION</h2>
+                            <h4> $39.99</h4>
+                        </div>
+                    </div>
+                    <div class="flex rounded bg-white">
+                        <div class="rounded bg-[#EFEBE3] w-[33.3%] h-[50%] m-4">
+                            <img src="./images/onion.png">
+                        </div>
+                        <div class="mt-4">
+                            <i class="fas fa-star text-yellow-500"></i> 4.5
+                            <h2 class="2xl"> 1 KG ONION</h2>
+                            <h4> $39.99</h4>
+                        </div>
+                    </div>
+                    <div class="flex rounded bg-white">
+                        <div class="rounded bg-[#EFEBE3] w-[33.3%] h-[50%] m-4">
+                            <img src="./images/onion.png">
+                        </div>
+                        <div class="mt-4">
+                            <i class="fas fa-star text-yellow-500"></i> 4.5
+                            <h2 class="2xl"> 1 KG ONION</h2>
+                            <h4> $39.99</h4>
+                        </div>
+                    </div>
+                    <div class="flex rounded bg-white">
+                        <div class="rounded bg-[#EFEBE3] w-[33.3%] h-[50%] m-4">
+                            <img src="./images/onion.png">
+                        </div>
+                        <div class="mt-4">
+                            <i class="fas fa-star text-yellow-500"></i> 4.5
+                            <h2 class="2xl"> 1 KG ONION</h2>
+                            <h4> $39.99</h4>
+                        </div>
+                    </div>
+                    <div class="flex rounded bg-white">
+                        <div class="rounded bg-[#EFEBE3] w-[33.3%] h-[50%] m-4">
+                            <img src="./images/onion.png">
+                        </div>
+                        <div class="mt-4">
+                            <i class="fas fa-star text-yellow-500"></i> 4.5
+                            <h2 class="2xl"> 1 KG ONION</h2>
+                            <h4> $39.99</h4>
+                        </div>
+                    </div>
+                    <div class="flex rounded bg-white">
+                        <div class="rounded bg-[#EFEBE3] w-[33.3%] h-[50%] m-4">
+                            <img src="./images/onion.png">
+                        </div>
+                        <div class="mt-4">
+                            <i class="fas fa-star text-yellow-500"></i> 4.5
+                            <h2 class="2xl"> 1 KG ONION</h2>
+                            <h4> $39.99</h4>
+                        </div>
+                    </div>
+                    <div class="hidden lg:flex rounded bg-white">
+                        <div class="rounded bg-[#EFEBE3] w-[33.3%] h-[50%] m-4">
+                            <img src="./images/onion.png">
+                        </div>
+                        <div class="mt-4">
+                            <i class="fas fa-star text-yellow-500"></i> 4.5
+                            <h2 class="2xl"> 1 KG ONION</h2>
+                            <h4> $39.99</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="mx-20 p-10">
+        <h1 class="font-bold text-2xl p-2 py-4"><span class="text-green-600">Arrivals & Offers</span></h1>
+        <div class="gap-4 grid grid-cols-1 lg:grid-cols-[5fr_3fr]">
+            <div class="bg-[#115414] rounded-2xl p-8 relative py-8">
+                <img src="./images/dawat-logo.png" class="py-8">
+                <button class="bg-[#63B76D] text-white rounded p-4 my-4 px-8">Cook Exotic Dishes</button>
+                <h2 class="font-bold text-white text-3xl p-4 my-4">UP TO 20% OFF</h2>
+                <div class="absolute bottom-0 right-0 p-4"> 
+                    <img src="./images/dawat-mock-up.png">
+                </div>
+            </div>
+            <div class="bg-[#102861] rounded-2xl relative p-8 py-8">
+                <img src="./images/india-gate-logo.png" class="py-8">
+                <button class="bg-[#2A4D97] text-white p-4 rounded my-4 px-8">World's No.1 Rice</button>
+                <h2 class="font-bold text-white text-3xl p-4 my-4">UP TO 40% OFF</h2>
+                <div class="absolute bottom-0 right-0 p-4">
+                    <img src="./images/india-gate-mock-up.png">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="relative m-20 p-10 z-10 lg:mt-32">
+        <div class="grid p-4 rounded-xl grid-cols-1 lg:grid-cols-2 bg-[#EFEBE3]">
+            <div class="pl-8">
+                <img src="./images/vegetable-busket.png">
+            </div>
+            <div class="items-center p-8 justify-center">
+                <h1 class="text-3xl py-4">Get Grocery News!</h1>
+                <p class="py-6">Exclusive training tips, ticks, product deals and more.</p>
+                <input type="email" placeholder=" Enter email..." class="p-4 rounded w-[50%]"><br>
+                <button class="text-white rounded bg-green-600 p-4 my-8">Subscribe</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="relative bg-green-600 w-full -mt-[40vh]">
+        <div class="h-[45vh]"></div>
+        <div class="h-[70vh] grid sm:grid-cols-1 text-white p-4 lg:h-[35vh] lg:grid-cols-3">
+            <div class="px-8">
+                <img src="./images/logo-footer.png">
+                <p class="py-4 pb-16">Discover a world of treats, toys, and <br>essentials handpicked for your furry <br>friends</p>
+            </div>
+            <div>
+                <ul>
+                    <li class="py-4"><a href="#">Products</a></li>
+                    <li class="py-4"><a href="#">Services</a></li>
+                    <li class="py-4"><a href="#">Contact US</a></li>
+                </ul>
+            </div>
+            <div><br><br><br>
+                Follow US<br>
+                <i class="fab fa-facebook p-4"></i>
+                <i class="fab fa-instagram p-4"></i>
+                <i class="fab fa-linkedin p-4"></i>
+                <i class="fab fa-youtube p-4"></i>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
